@@ -1,0 +1,49 @@
+body{
+	border-style:solid;
+	border-color:black;
+}
+.header,.logo{
+	display:flex;
+}
+.side-content1{
+	padding:10px;
+	border-style:solid;
+	border-color:black;
+	border-width:5px;
+	position:sticky;
+}
+.side-content1:hover{
+	background-color:green;
+	color:skyblue;
+}
+.container1{
+	width:70%;
+	background-color:grey;
+}
+.container2{
+	width:30%;
+	background-color:skyblue;
+	text-align:center;
+	position:sticky;
+	right:0px;
+}
+.main-container1,.main-container2,.main-container3{
+	text-align:justify;
+	background-color:white;
+	padding:40px 40px 70px 50px;
+}
+.line{
+	border-bottom:2px;
+	border-style:solid;
+	border-color:grey;
+}
+.logo1,.logo2{
+	padding-left:70px;
+	padding-bottom:90px;
+	padding-right:70px;
+	width:50%;
+	background-color:white;
+}
+.sub-container1,.sub-container2,.sub-container3{
+	width:33%;
+}
