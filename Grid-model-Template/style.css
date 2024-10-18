@@ -1,0 +1,250 @@
+body{
+    border: 3px solid black;
+}
+*{
+	box-sizing:border-box;
+}
+.index{
+	padding: 10px;
+	font-family: cursive;
+	font-size: 20px;
+	color: grey;
+	color: gold;
+	background-color: azure;
+	position: sticky;
+}
+.menu-bar{
+	position: absolute;
+	right: 20px;
+}
+.header,.container4{
+	position: relative;
+}
+.heading{
+	position: absolute;
+	top: 25%;
+	left: 45%;
+	font-size: 50px;
+	color: #ff00ff;
+	font-family: cursive;
+}
+.menu{
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	font-size: 20px;
+	font-family: arial;
+	color: #00ff7f;
+}
+.title:hover{
+	background-color: #008080;
+	color: #ff6347;
+}
+.button,.button1{
+	font-size: 15px;
+	background-color:#20b2aa;
+	border-radius: 50%;
+	padding: 10px;
+	color: navy;
+}
+.button1{
+	border-radius:10%;
+}
+.container1,.container5{
+	background-color: ghostwhite;
+}
+.container-header,.container4-header{
+	font-size: 30px;
+	font-family: cursive;
+	text-align: center;
+	padding: 10px;
+	color: magenta;
+	margin: 0px;
+}
+.logo{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 20px 20px 20px 40px;
+}
+.image{
+	padding: 10px;
+	border: 3px solid olive;
+	border-radius: 10%;
+	text-align: center;
+	background-color: cornsilk;
+}
+.icon{
+	text-align: center;
+	font-family: cursive;
+	color: chartreuse;
+}
+.title-header{
+	text-align: center;
+	padding-top: 25px;
+	margin: 0px;
+	font-family: verdana;
+}
+.container-explanation{
+	color: grey;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.container2{
+	text-align: center;
+	padding: 10px 300px 80px;
+}
+.leader-photo{
+	padding: 20px;
+}
+.leader-contact1,.leader-contact2,.leader-contact3{
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: mediumpurple;
+	width: 100%;
+	border-radius: 3%;
+	margin: 20px;
+}
+.leader-info,.leader-name{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	text-align: justify;
+	color: darkslategrey;
+}
+.leader-name{
+	text-align: left;
+	color: #800080;
+	font-size: 15px;
+	font-family: verdana;
+}
+.leader-contact2{
+	background-color: deeppink;
+}
+.leader-contact3{
+	background-color: orange;
+}
+.radius{
+    border-radius: 50%;
+	border: 3px solid green;
+}
+.container3{
+	background-color: aliceblue;
+	width: 100%;
+	padding: 30px;
+}
+.member-details{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 20px;
+}
+.member{
+	margin: 30px;
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid lightpink;
+}
+.logo-radius{
+	border-radius: 10%;
+	border: 1px solid fuchsia;
+	margin: 2px;
+	padding: 5px;
+	background-color: cyan;
+}
+.member-role,.member-name,.member-intro,.member-contact{
+	font-size: 15px;
+	text-align: left;
+	font-family: verdana;
+	color: grey;
+}
+.member-name{
+	font-size: 20px;
+	font-family: cursive;
+	color: deeppink;
+}
+.member-intro{
+	text-align: justify;
+	color: black;
+}
+.member-contact{
+	padding: 5px;
+}
+.container4-header{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	text-align: justify;
+}
+.container4-explanation{
+	font-size: 15px;
+	color: grey;
+	padding: 5px;
+}
+.text{
+	color: red;
+	border-bottom: 1px solid red;
+}
+.text:hover{
+	background-color: blue;
+}
+.container5{
+	padding-bottom: 50px;
+}
+.location{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 50px;
+}
+.address{
+	padding: 30px 30px 30px 150px;
+	text-align: justify;
+}
+.landline{
+	font-size: 30px;
+	color: magenta;
+	font-family: arial;
+}
+.area{
+	color: grey;
+	padding: 5px 0px;
+}
+.company-logo{
+	text-align: right;
+	padding-right: 80px;
+}
+.image-radius{
+	border-radius: 50%;
+	border: 3px groove tomato;
+}
+.contact-details{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 20px 50px 50px 180px;
+}
+.call,.pin-location,.business{
+	margin: 25px;
+	color: red;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 20px;
+}
+.content{
+	font-size: 15px;
+	color: forestgreen;
+	font-family: arial;
+}
+.call{
+	background-color: mediumpurple;
+}
+.pin-location{
+	background-color: lightpink;
+}
+.business{
+	background-color: orange;
+}
+.footer{
+	text-align: center;
+	color: black;
+	background-color: lightgray;
+	font-family: arial;
+	padding: 25px;
+}

@@ -1,0 +1,14 @@
+body{
+	padding:50px;
+	padding-left:300px;
+	float:center;
+	background-image:url("./images/main-image.jpg");
+	background-size:cover;
+}
+form{
+	border:10px groove teal;
+	padding:25px;
+	text-align:justify;
+	background-color:lightgrey;
+	margin:150px;
+}

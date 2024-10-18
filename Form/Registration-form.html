@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title>
+    <style>
+        body{
+            background-color:skyblue;
+        }
+        h1{
+            color:blue;
+            background-color:orange;
+            text-align:center;
+            height:15vh;
+            width:100%vw;
+        }
+    </style>
+</head>
+
+<body>
+<form>
+    <h1 style="float:center;color:teal;padding:10px;">Registration Form</h1>
+	
+    <ol start="1" type="1">
+    <li>
+       <label for="firstname">First name</label>
+           <input type="text" placeholder="Enter your first name" id="name"/>
+       <label for="middle-name">Middle name</label>
+           <input type="text" placeholder="Enter your middle name" id="name"/>
+       <label for="last-name">Last name</label>
+           <input type="text" placeholder="Enter your Last name" id="name"/>
+	</li>
+	
+    <br><br>
+	
+    <li>
+        <label for="phone-number">Phone number</label>
+            <input type="text" value="+91" id="country code" readonly/>
+            <input type="text" placeholder="Enter your Mobile number"/>
+	</li>
+	
+    <br><br>
+	
+    <li>
+        <label name="gender" id="gender-identity">Gender</label>
+            <input type="radio" name="gender" id="Male"/>
+			    <label for="male">Male</label>
+            <input type="radio" name="gender" id="Female"/>
+			    <label for="female">Female</label>
+    </li>
+	
+	<br><br>
+	
+    <li>
+        <label for="address">Address</label><br>
+            <textarea placeholder="Enter your Address" id="location" rows="5" cols="80"></textarea> 
+    </li>
+	
+    <br><br>
+	
+    <li>
+        <label for="email">Email</label>
+            <input type="text" placeholder="Enter your email" id="email"/>
+	</li>
+	
+    <br><br>
+	
+    <li>
+        <label for="semester">Semester</label>
+        <select>
+            <option selected>1 sem</option>
+            <option>2 sem</option>
+            <option>3 sem</option>
+            <option>4 sem</option>
+            <option>5 sem</option>
+            <option>6 sem</option>
+            <option>7 sem</option>
+            <option>8 sem</option>
+        </select>
+    </li>
+	
+	<br><br>
+	
+    <li>
+        <label for="cgpa">CGPA</label>
+            <input type="number" placeholder="Enter your CGPA"/>
+    </li>
+	
+	<br><br>
+	
+    <li>
+        <label for="skills">Skills</label>
+            <input type="checkbox" name="skillset" id="HTML">HTML</input>
+            <input type="checkbox" name="skillset" id="CSS">CSS</input>
+            <input type="checkbox" name="skillset" id="JAVASCRIPT">JAVASCRIPT</input>
+            <input type="checkbox" name="skillset" id="NODEJS">NODEJS</input>
+            <input type="checkbox" name="skillset" id="REACTJS">REACTJS</input>
+    </li>
+	
+    <br><br>
+	
+    <li>
+	    <label for="course">Course</label>
+            <select>
+                <option>CSE</option>
+                <option selected>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+                <option>CIVIL</option>
+                <option>BIO</option>
+            </select>
+	</li>
+	
+    <br><br>
+	
+    <li>
+        <label for="photo">Photo</label>
+            <input type="file" name="image" value="upload image"/>
+    </li>
+	
+	<br><br>
+	
+    <li>
+        <label for="signature">Signature</label>
+            <input type="file" name="signature" value="Upload signature"/>
+    </li>
+	
+	<br><br>
+	
+    <li>
+        <label for="resume">Resume</label>
+            <input type="file" name="resume" value="Upload Resume"/>
+    </li>
+	
+    <br>
+    <ol>
+	
+    <input style="background-color:teal;padding:10px;color:orange" type="button" value="submit"/>
+	
+</form>
+
+</body>
+</html>
