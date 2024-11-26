@@ -1,0 +1,14 @@
+.menu{
+    font-size:13px;
+}
+body{
+    border:3px groove salmon;
+}
+*{
+    box-sizing: border-box;
+}
+#register{
+    border:3px solid ghostwhite;
+    background-color:lightgrey;
+    color:black;
+}
